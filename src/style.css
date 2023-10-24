@@ -154,6 +154,14 @@ footer {
 }
  
 @media screen and (max-width: 768px) {
+  nav {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  background: none;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
   nav ul {
     justify-content: center;
   }
